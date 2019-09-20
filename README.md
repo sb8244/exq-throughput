@@ -19,6 +19,9 @@ The redis queues are cleaned up before/after each test.
 
 The Exq work processor is not running. This test is purely around speed of enqueueing.
 
+These tests are all running locally. Redis is not running through any type of virtualization. The performance would be significantly different
+depending on how redis is setup and the network speed between your application and redis.
+
 ## The Results
 
 ### Parallelism 1
